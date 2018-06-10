@@ -1,10 +1,9 @@
 import { Component } from '@angular/core';
-import { IncrementDecrementService } from '../increment-decrement/increment-decrement.service';
+import { IncrementDecrementService } from '../services/increment-decrement/increment-decrement.service';
 
 @Component({
   selector: 'app-counter',
-  templateUrl: './counter.component.html',
-  styleUrls: ['./counter.component.css']
+  templateUrl: './counter.component.html'
 })
 export class CounterComponent {
 

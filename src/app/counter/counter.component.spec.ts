@@ -3,7 +3,7 @@ import { async, ComponentFixture, TestBed } from '@angular/core/testing';
 import { CounterComponent } from './counter.component';
 import { DebugElement } from '@angular/core';
 import { By } from '@angular/platform-browser';
-import { IncrementDecrementService } from '../increment-decrement/increment-decrement.service';
+import { IncrementDecrementService } from '../services/increment-decrement/increment-decrement.service';
 
 describe('CounterComponent', () => {
   let component: CounterComponent;
